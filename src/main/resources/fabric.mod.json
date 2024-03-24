@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "rws",
+  "version": "${version}",
+
+  "name": "RemoveWelcomeScreen",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/rws/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+
+      "mixins": [
+        "rws.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
