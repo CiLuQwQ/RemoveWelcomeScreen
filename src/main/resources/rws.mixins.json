@@ -1,11 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "github.ciluqwq.rws.mixin",
+  "package": "github.ciluqwq.rws.client.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
+    "GameOptionsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

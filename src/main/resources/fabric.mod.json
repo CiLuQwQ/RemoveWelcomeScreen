@@ -2,24 +2,25 @@
   "schemaVersion": 1,
   "id": "rws",
   "version": "${version}",
-
   "name": "RemoveWelcomeScreen",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/CILUQWQ/RemoveWelcomeScreen"
+  },
   "license": "MIT",
-  "icon": "assets/rws/icon.png",
-
   "environment": "client",
-  "entrypoints": {},
-
-      "mixins": [
-        "rws.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "rws.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "*"
   }
 }
